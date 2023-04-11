@@ -1,0 +1,11 @@
+// Reescribiendo las variables de Bootstrap
+$rojo: #f34f51;
+$verde: #0098AE;
+$oscuro: #212121;
+
+// Asignando paletas de colores a Bootstrap
+$primary : $rojo;
+$success : $verde;
+
+// Importando Bootstrap a nuestro proyecto
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
