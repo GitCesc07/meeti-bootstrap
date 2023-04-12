@@ -4,8 +4,13 @@ $verde: #0098AE;
 $oscuro: #212121;
 
 // Asignando paletas de colores a Bootstrap
-$primary : $rojo;
-$success : $verde;
+$primary: $rojo;
+$success: $verde;
+$dark: $oscuro;
+
+/** 
+** Tipografia */
+$display-font-weight: 900;
 
 // Importando Bootstrap a nuestro proyecto
 @import '../../node_modules/bootstrap/scss/bootstrap.scss';
