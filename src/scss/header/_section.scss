@@ -1,0 +1,9 @@
+@use '../custom' as *;
+
+.p-section {
+    width: 100%;
+
+    @include media-breakpoint-up (md) {
+        width: 50%;
+    }
+}
